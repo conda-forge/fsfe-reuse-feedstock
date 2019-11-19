@@ -1,5 +1,5 @@
-{% set version = "0.5.2" %}
-{% set sha256 = "36a4b1d4953d9f42bea71b17d9ef762b3e18e06c47a48e0de1de3cc4a7ebc7ae" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "2667325ce87a1469966e9e2fb65c0cdd6fe11cba6a6443327661efc382454144" %}
 
 package:
   name: fsfe-reuse
