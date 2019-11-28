@@ -7,8 +7,16 @@ Package license: GPL-3.0-or-later AND Apache-2.0 AND CC0-1.0 AND CC-BY-SA-4.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: reuse is a tool for compliance with the REUSE recommendations.
+Summary: fsfe-reuse is an alias for reuse.
 
+As of version 0.7.0, [reuse](https://pypi.org/project/reuse/) is
+used instead of fsfe-reuse.
+
+If you still depend on fsfe-reuse, then you will automatically get
+the latest version of reuse. This dummy package depends on reuse.
+
+If you depend on a specific older version of fsfe-reuse, then you
+will continue to get that version.
 
 
 Current build status
@@ -67,7 +75,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
